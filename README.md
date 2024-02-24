@@ -3,7 +3,7 @@ Implementation of Class in Python as Data Structure for Creating, Reading, Updat
 
 # Key Features 📜
 
-MODULE Used : Utilizes Python's Built-in pickle module for serializing and deserializing data types.
+MODULES Used : Utilizes Python's Built-in pickle module for serializing and deserializing data types.
 
 CLASS Implementation : Utilizes object-oriented programming principles for efficient data management within the binary file.
 

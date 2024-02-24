@@ -99,8 +99,8 @@ def apd_record():
         temp = []
         rec_id = 1
 
-    #Appending record to the unpickled data from Binary File
     else:
+        #Appending record to the unpickled data from Binary File
         print("APPENDING! a new record to the file {}".format(file))
         print()
         rec_id = temp[-1][0]

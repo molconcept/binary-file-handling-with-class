@@ -3,17 +3,17 @@ Implementation of Class in Python as Data Structure for Creating, Reading, Updat
 
 # Key Features 📜
 
-Built-in Module: Utilizes pickle module in Python for serializing and deserializing data types.
+MODULE Used : Utilizes Python's Built-in pickle module for serializing and deserializing data types.
 
-Class Implementation: Utilizes object-oriented programming principles for efficient data management within the binary file.
+CLASS Implementation : Utilizes object-oriented programming principles for efficient data management within the binary file.
 
-READ Records: Retrieve and Display records from the binary file.
+READ Records : Retrieve and Display records from the binary file.
 
-EDIT Records: Modify existing records within the binary file.
+EDIT Records : Modify existing records within the binary file.
 
-APPEND Records: Add new records to the binary file seamlessly.
+APPEND Records : Add new records to the binary file seamlessly.
 
-DELETE Records: Remove unwanted records from the binary file.
+DELETE Records : Remove unwanted records from the binary file.
 
 # Usage 🛃
 Clone or download the repository to your local machine.

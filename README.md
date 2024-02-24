@@ -22,6 +22,6 @@ Run the Python program and follow the on-screen instructions to perform desired 
 
 Customize the program or integrate it into your projects as needed.
 
-# Contributions
+# Contributions 🛂
 
-Contributions are welcome! Feel free to suggest improvements, report issues, or contribute enhancements to make this tool even more robust and versatile.
+Contributions are welcome! Feel free to suggest improvements, report issues, or contribute any enhancements.

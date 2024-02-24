@@ -11,7 +11,7 @@ READ Records : Retrieve and Display records from the binary file.
 
 EDIT Records : Modify existing records within the binary file.
 
-APPEND Records : Add new records to the binary file seamlessly.
+APPEND Records : Add new records to the binary file.
 
 DELETE Records : Remove unwanted records from the binary file.
 

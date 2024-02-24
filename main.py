@@ -106,7 +106,7 @@ def apd_record():
         rec_id = temp[-1][0]
         rec_id += 1
 
-    #Creating a new record unit list
+    #Creating a new unit_record list
     new_rec = []
     app_name = input("Enter the Name of Application : ")
     curr_ver = float(input("Enter the Current Application Version : "))
@@ -115,6 +115,7 @@ def apd_record():
     new_rec.append(rec_id)
     new_rec.append(app_name)
     new_rec.append(curr_ver)
+    #Creating and Appending objects of class Fix to the unit list
     for i in range(n):
         x = input("Enter Fix {} Info : ".format(i+1))
         new_rec.append(Fix(i+1, x))
@@ -125,7 +126,7 @@ def apd_record():
     #Appending new record unit list to main data list
     temp.append(new_rec)
 
-    #Pickling Appended data to Binary File
+    #Pickling Appended data i.e. overwriting the main_data list to the Binary File after appending a unit_record list in it
     pickle_data(temp)
 
 def edit_record():
@@ -180,7 +181,7 @@ def edit_record():
         else:
             print("Sorry no record found!")
 
-        #Pickling Updated data to Binary File
+        #Pickling Updated data i.e. overwriting the updated main_data list to the Binary File
         pickle_data(temp)
                 
 def del_record():
@@ -198,7 +199,7 @@ def del_record():
     else:
         print("Sorry no record found!")
     
-    #Pickling Updated data to Binary File
+    #Pickling Updated data i.e. overwriting the main_data list to the Binary File after deletion of a certain record
     pickle_data(temp)
     
 #Main Program Execution

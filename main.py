@@ -107,24 +107,24 @@ def apd_record():
         rec_id += 1
 
     #Creating a new unit_record list
-    new_rec = []
+    unit_rec = []
     app_name = input("Enter the Name of Application : ")
     curr_ver = float(input("Enter the Current Application Version : "))
     n = int(input("Enter the number of fixes you want to make to this batch : "))
-    #Append data to the unit list i.e. new_rec
-    new_rec.append(rec_id)
-    new_rec.append(app_name)
-    new_rec.append(curr_ver)
-    #Creating and Appending objects of class Fix to the unit list
+    #Appending input data to the unit_record list i.e. unit_rec
+    unit_rec.append(rec_id)
+    unit_rec.append(app_name)
+    unit_rec.append(curr_ver)
+    #Creating and Appending objects of class Fix to the unit_rec list
     for i in range(n):
         x = input("Enter Fix {} Info : ".format(i+1))
-        new_rec.append(Fix(i+1, x))
+        unit_rec.append(Fix(i+1, x))
         print("Data Entered")
         print()
     print("ATTENTION! - By Default the status of all the fixes will be set to 'pending'")
     print()
     #Appending new record unit list to main data list
-    temp.append(new_rec)
+    temp.append(unit_rec)
 
     #Pickling Appended data i.e. overwriting the main_data list to the Binary File after appending a unit_record list in it
     pickle_data(temp)

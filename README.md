@@ -7,13 +7,13 @@ Built-in Module: Utilizes pickle module in Python for serializing and deserializ
 
 Class Implementation: Utilizes object-oriented programming principles for efficient data management within the binary file.
 
-Read Records: Retrieve and Display records from the binary file.
+READ Records: Retrieve and Display records from the binary file.
 
-Edit Records: Modify existing records within the binary file.
+EDIT Records: Modify existing records within the binary file.
 
-Append Records: Add new records to the binary file seamlessly.
+APPEND Records: Add new records to the binary file seamlessly.
 
-Delete Records: Remove unwanted records from the binary file.
+DELETE Records: Remove unwanted records from the binary file.
 
 # Usage 🛃
 Clone or download the repository to your local machine.

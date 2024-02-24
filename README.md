@@ -24,4 +24,4 @@ Customize the program or integrate it into your projects as needed.
 
 # Contributions 🛂
 
-Contributions are welcome! Feel free to suggest improvements, report issues, or contribute any enhancements.
+Contributions are welcome! Feel free to suggest improvements, report issues, or contribute any enhancements in the code.
